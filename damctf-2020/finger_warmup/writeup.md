@@ -3,7 +3,7 @@ URL for challenge: [https://finger-warmup.chals.damctf.xyz/]
 
 For this challenge we're given access to a website that just looks like this:
 
-![][./images/firstPage.png]
+![](images/firstPage.png)
 
 Let's check out the HTML for the site as well:
 
@@ -34,7 +34,7 @@ before you could do)
 
 Here's the code that I wrote for getting the flag (also included in this folder)
 
-```
+```python
 from bs4 import BeautifulSoup
 import requests
 
@@ -58,4 +58,10 @@ print(soup.pre.text)
 
 When we run our code, we wait for a couple of ~~years~~ minutes...
 
-![][images/getFlag.png]
+![](images/getFlag.png)
+
+Here is our flag!
+
+```
+dam{I_hope_you_did_this_manually}
+```
