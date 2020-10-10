@@ -7,7 +7,7 @@ For this challenge we're given access to a website that just looks like this:
 
 Let's check out the HTML for the site as well:
 
-```
+```html
 <a href="un5vmavt8u5t5op1u94h">click here, if you are patient enough I will give
  you the flag</a>
 ```
@@ -17,8 +17,8 @@ however, we'll see that we came across the same page. In fact, we can just
 keep clicking and going to different pages with no avail.
 
 The challenged linked to two things 
-([here][https://realpython.com/python-requests/] and 
-[here][https://programminghistorian.org/en/lessons/intro-to-beautiful-soup]). 
+[here](https://realpython.com/python-requests/) and 
+[here](https://programminghistorian.org/en/lessons/intro-to-beautiful-soup). 
 One is how to send GET requests with python, and the other is a tutorial on 
 how to use BeautifulSoup,a cool parser that can get information from HTML text 
 for us.
