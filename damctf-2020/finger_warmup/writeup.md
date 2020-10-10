@@ -1,5 +1,5 @@
 URL for challenge: [https://finger-warmup.chals.damctf.xyz/]
-[https://finger-warmup.chals.damctf.xyz/]
+(https://finger-warmup.chals.damctf.xyz/)
 
 For this challenge we're given access to a website that just looks like this:
 
