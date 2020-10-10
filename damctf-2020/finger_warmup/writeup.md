@@ -1,5 +1,4 @@
-URL for challenge: [https://finger-warmup.chals.damctf.xyz/]
-(https://finger-warmup.chals.damctf.xyz/)
+URL for challenge: [https://finger-warmup.chals.damctf.xyz/](https://finger-warmup.chals.damctf.xyz/)
 
 For this challenge we're given access to a website that just looks like this:
 
@@ -13,14 +12,16 @@ Let's check out the HTML for the site as well:
 ```
 
 Hmm, it looks like this goes to another page in the site. If we click on it
-however, we'll see that we came across the same page. In fact, we can just 
-keep clicking and going to different pages with no avail.
+however, we'll see that we came across the same text and link as before. In fact, we can just 
+keep clicking and going to different pages with no avail. One thing I noticed though is that
+rather than going to some random page, the links follow a pattern. You will always go through
+the same pages.
 
-The challenged linked to two things 
+The challenge linked to two things 
 [here](https://realpython.com/python-requests/) and 
 [here](https://programminghistorian.org/en/lessons/intro-to-beautiful-soup). 
 One is how to send GET requests with python, and the other is a tutorial on 
-how to use BeautifulSoup,a cool parser that can get information from HTML text 
+how to use BeautifulSoup, a cool parser that can get information from HTML text 
 for us.
 
 Given these, and the challenge title, it looks like we will need to brute force 
